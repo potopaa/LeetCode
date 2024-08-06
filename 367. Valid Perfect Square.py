@@ -13,6 +13,10 @@ You must not use any built-in library function, such as sqrt.
 
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
+        
+        if num == 1:
+            return True
+
 
         l, r = 1, num // 2
 
@@ -25,7 +29,7 @@ class Solution:
             if squere == num:
                 return True
 
-            if squere > num:
+            if squere < num:
                 l = mid + 1
             else:
                 r = mid - 1
