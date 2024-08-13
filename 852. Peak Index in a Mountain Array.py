@@ -42,7 +42,7 @@ class Solution:
 
             if arr[mid] > arr[mid - 1]:
 
-                l = mid + 1
+                l = mid
 
             else:
                 r = mid + 1
