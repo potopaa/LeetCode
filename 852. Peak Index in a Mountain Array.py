@@ -45,4 +45,4 @@ class Solution:
                 l = mid
 
             else:
-                r = mid + 1
+                r = mid
