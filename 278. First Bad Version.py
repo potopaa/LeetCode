@@ -14,23 +14,19 @@ Implement a function to find the first bad version. You should minimize the numb
 
 
 # The isBadVersion API is already defined for you.
-# def isBadVersion(version: int) -> bool:
+def isBadVersion(version: int) -> bool:
 
-def isBadVersion(mid):
-    pass
+    class Solution:
+        def firstBadVersion(self, n: int) -> int:
+            l, r = 1, n
 
+            while l <= r:
 
-class Solution:
-    def firstBadVersion(self, n: int) -> int:
-        l, r = 1, n
+                mid = (l + r) // 2
 
-        while l <= r:
+                if isBadVersion(mid):
+                    r = mid - 1
+                else:
+                    l = mid + 1
 
-            mid = (l + r) // 2
-
-            if isBadVersion(mid):
-                r = mid - 1
-            else:
-                l = mid + 1
-
-        return l
+            return l
