@@ -6,7 +6,6 @@ Given an array nums of integers, return how many of them contain an even number 
 
 from typing import List
 
-
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
 
