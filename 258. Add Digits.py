@@ -19,3 +19,4 @@ class Solution:
                 cur, d = divmod(cur, 10)
 
                 new_num += d
+                
