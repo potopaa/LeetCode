@@ -16,9 +16,3 @@ class Solution:
             return True
 
         return self.isPowerOfFour(n / 4)
-        
-
-
-
-
-
