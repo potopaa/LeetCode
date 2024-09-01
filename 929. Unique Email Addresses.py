@@ -21,6 +21,7 @@ return the number of different addresses that actually receive mails.
 
 '''
 
+
 from typing import List
 
 class Solution:
