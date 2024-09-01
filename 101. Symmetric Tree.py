@@ -20,6 +20,7 @@ Follow up: Could you solve it both recursively and iteratively?
 
 '''
 
+
 from typing import Optional
 
 # Definition for a binary tree node.
@@ -56,5 +57,3 @@ class Solution:
                     return False
 
         return True
-
-
