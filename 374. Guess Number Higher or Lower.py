@@ -21,28 +21,24 @@ Return the number that I picked.
 # @return -1 if num is higher than the picked number
 #          1 if num is lower than the picked number
 #          otherwise return 0
-# def guess(num: int) -> int:
 
-def guess(mid):
-    pass
+def guess(num: int) -> int:
 
+    class Solution:
+        def guessNumber(self, n: int) -> int:
+            l, r = 1, n
 
-class Solution:
-    def guessNumber(self, n: int) -> int:
-        l, r = 1, n
+            while l <= r:
 
-        while l <= r:
+                mid = (l + r) // 2
 
-            mid = (l + r) // 2
+                check = guess(mid)
 
-            check = guess(mid)
+                if check == 0:
+                    return mid
 
-            if check == 0:
-                return mid
+                if check < 0:
+                    r = mid - 1
 
-            if check < 0:
-                r = mid - 1
-
-            else:
-                l = mid + 1
-
+                else:
+                    l = mid + 1
