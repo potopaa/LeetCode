@@ -14,4 +14,3 @@ class Solution:
             words[i] = words[i][::-1]
 
         return ' '.join(words)
-
