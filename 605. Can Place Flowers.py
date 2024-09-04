@@ -9,6 +9,7 @@ violating the no-adjacent-flowers rule and false otherwise.
 
 '''
 
+
 from typing import List
 
 class Solution:
