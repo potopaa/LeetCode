@@ -7,6 +7,8 @@ value and return this value.
 Any answer with a calculation error less than 10^-5 will be accepted.
 
 '''
+
+
 from collections import deque
 from typing import List
 
