@@ -25,3 +25,5 @@ class Solution:
             return ''.join(stack)
 
         return typing(s) == typing(t)
+
+
