@@ -7,6 +7,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 '''
 
+
 from typing import List
 
 class Solution:
