@@ -10,6 +10,7 @@ It can be proven that the answer is unique.
 
 '''
 
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         
