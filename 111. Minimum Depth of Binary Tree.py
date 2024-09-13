@@ -38,4 +38,3 @@ class Solution:
             if cur.right:
                 q.append((cur.right, depth + 1))
 
-
