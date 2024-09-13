@@ -39,4 +39,3 @@ class Solution:
                 q.append((cur.right, depth + 1))
 
 
-
