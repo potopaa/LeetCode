@@ -36,4 +36,3 @@ class Solution:
             dp.append(dp[i - 3] + dp[i - 2] + dp[i - 1])
 
         return dp[-1]
-
