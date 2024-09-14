@@ -16,7 +16,6 @@ Example 2:
 Input: n = 25
 Output: 1389537
 
-
 Constraints:
 
 0 <= n <= 37
@@ -37,3 +36,8 @@ class Solution:
             dp.append(dp[i - 3] + dp[i - 2] + dp[i - 1])
 
         return dp[-1]
+
+
+
+
+
