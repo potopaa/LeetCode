@@ -40,9 +40,3 @@ class Solution:
             dp.append(next_row)
 
         return dp
-
-
-
-
-
-
