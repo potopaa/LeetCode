@@ -1,4 +1,4 @@
-'''
+"""
 
 Given an array arr of integers, check if there exist two indices i and j such that :
 
@@ -22,7 +22,7 @@ Constraints:
 2 <= arr.length <= 500
 -103 <= arr[i] <= 103
 
-'''
+"""
 
 from typing import List
 
