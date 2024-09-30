@@ -1,4 +1,4 @@
-'''
+"""
 
 We are playing the Guess Game. The game is as follows:
 
@@ -13,7 +13,7 @@ You call a pre-defined API int guess(int num), which returns three possible resu
 0: your guess is equal to the number I picked (i.e. num == pick).
 Return the number that I picked.
 
-'''
+"""
 
 
 # The guess API is already defined for you.
