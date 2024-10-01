@@ -1,4 +1,4 @@
-'''
+"""
 
 Every valid email consists of a local name and a domain name, separated by the '@' sign.
 Besides lowercase letters, the email may contain one or more '.' or '+'.
@@ -19,7 +19,7 @@ It is possible to use both of these rules at the same time.
 Given an array of strings emails where we send one email to each emails[i],
 return the number of different addresses that actually receive mails.
 
-'''
+"""
 
 
 from typing import List
